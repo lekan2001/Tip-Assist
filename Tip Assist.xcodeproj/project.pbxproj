@@ -16,6 +16,8 @@
 		E471B0B124A2C26600A8A95D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E471B0B024A2C26600A8A95D /* main.m */; };
 		E471B0BB24A2C26600A8A95D /* Tip_AssistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E471B0BA24A2C26600A8A95D /* Tip_AssistTests.m */; };
 		E471B0C624A2C26600A8A95D /* Tip_AssistUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E471B0C524A2C26600A8A95D /* Tip_AssistUITests.m */; };
+		E471B0D524A2D8A200A8A95D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E471B0D424A2D8A200A8A95D /* SettingsViewController.m */; };
+		E471B0D724A2FCB700A8A95D /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E471B0D624A2FCB700A8A95D /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		E471B0C124A2C26600A8A95D /* Tip AssistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip AssistUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E471B0C524A2C26600A8A95D /* Tip_AssistUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_AssistUITests.m; sourceTree = "<group>"; };
 		E471B0C724A2C26600A8A95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E471B0D324A2D8A200A8A95D /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		E471B0D424A2D8A200A8A95D /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		E471B0D624A2FCB700A8A95D /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star.png; path = ../../../Downloads/star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +116,10 @@
 				E471B0A424A2C26600A8A95D /* ViewController.h */,
 				E471B0A524A2C26600A8A95D /* ViewController.m */,
 				E471B0A724A2C26600A8A95D /* Main.storyboard */,
+				E471B0D324A2D8A200A8A95D /* SettingsViewController.h */,
+				E471B0D424A2D8A200A8A95D /* SettingsViewController.m */,
 				E471B0AA24A2C26600A8A95D /* Assets.xcassets */,
+				E471B0D624A2FCB700A8A95D /* star.png */,
 				E471B0AC24A2C26600A8A95D /* LaunchScreen.storyboard */,
 				E471B0AF24A2C26600A8A95D /* Info.plist */,
 				E471B0B024A2C26600A8A95D /* main.m */,
@@ -241,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E471B0AE24A2C26600A8A95D /* LaunchScreen.storyboard in Resources */,
+				E471B0D724A2FCB700A8A95D /* star.png in Resources */,
 				E471B0AB24A2C26600A8A95D /* Assets.xcassets in Resources */,
 				E471B0A924A2C26600A8A95D /* Main.storyboard in Resources */,
 			);
@@ -269,6 +278,7 @@
 			files = (
 				E471B0A624A2C26600A8A95D /* ViewController.m in Sources */,
 				E471B0A024A2C26600A8A95D /* AppDelegate.m in Sources */,
+				E471B0D524A2D8A200A8A95D /* SettingsViewController.m in Sources */,
 				E471B0B124A2C26600A8A95D /* main.m in Sources */,
 				E471B0A324A2C26600A8A95D /* SceneDelegate.m in Sources */,
 			);
